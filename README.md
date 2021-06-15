@@ -1,0 +1,1 @@
+# sonata-theme-bundle
