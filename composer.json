@@ -1,0 +1,23 @@
+{
+  "name": "uft-sti/sonata-theme-bundle",
+  "description": "Tema Padrão utilizado pela Universidade Federal do Tocantins",
+  "license": "MIT",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Jonh Leno Fernandes",
+      "email": "jonhleno@uft.edu.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "App\\UFT\\ThemeBundle\\": "" }
+  },
+  "require": {
+    "../../vendor/sonata-project/admin-bundle": "^3.14"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
